@@ -1,0 +1,68 @@
+<html>
+    </html>
+    <head>
+        </head>
+    <body>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <style>
+       
+        .cltxt {
+                height: 50px;
+                width: 90px;
+                border-radius: 24px;
+                float: right;
+                color: white;
+                background-color: black;
+                text-align: center;
+                padding: 10px 10px;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                margin-top: 100px;
+        }
+
+       
+        .cllogo {
+            width:100px;
+            height:100px;
+            float: right; 
+            transition: transform 0.3s ease;
+            margin-right: -90px ;
+        }
+
+      
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+       
+        .cltxt:hover + .cllogo,
+        .cllogo:hover,
+        .cltxt:hover ~ .cllogo {
+            animation: bounce 0.5s ease infinite;
+        }
+    </style>
+
+
+   
+    <button class="cltxt">Hover Me</button>
+
+  
+    <img src="img/icon.jpg" alt="Bouncing Image" class="cllogo">
+
+  
+
+</body>
+</html>
+
+
+    
+        </body>

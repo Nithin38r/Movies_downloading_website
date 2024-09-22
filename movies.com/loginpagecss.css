@@ -1,0 +1,139 @@
+.finished{
+    background-color:white;
+    color:black;
+}
+.finished:hover{
+    background-color:orange;
+}
+
+.finished1{
+    background-color:white;
+    color:black;
+}
+.finished1:hover{
+    background-color:rgb(245, 190, 87);
+}
+
+.home{
+    background-color:white;
+    color:black;
+
+}
+.home:hover{
+    background-color:rgb(245, 190, 87);
+}
+
+.reset1{
+    background-color:white;
+    color:black;
+
+}
+.reset1:hover{
+    background-color:rgb(245, 190, 87);
+
+}
+/* only for practice the below one */
+.name{
+    text-align:center;
+    font-weight: 1200px;
+    text-shadow: 0 0 3px#ff4d4d;
+    color:black;
+    font-size: larger;
+}
+.login{
+    text-shadow: 0 8px 8px orange;
+}
+.hofpg{
+    text-shadow: 5px 5px 9px orange;
+  
+}
+.bot{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-size-adjust: 30px;
+    border-radius: 10px;
+}
+.bot:hover{
+    background-color: orange;
+
+}
+.d1{
+    border-radius: 17px;
+}
+.d2{
+    border-radius: 17px;
+}
+.d3{
+    border-radius: 17px;
+}
+
+.g1{
+    position:top;
+
+}
+
+#dark-icons{
+    color: black;
+    border-radius: 50px;
+    background-color: orange;
+   
+}
+#dark-icons:hover{
+    background-color:black;
+    color: orange;
+}
+#dark-icons:active{
+    background-color:orange;
+    color: whitesmoke;
+}
+.back{
+    outline: none;
+    border: none;
+    background-color: aliceblue;
+}
+.back:hover{
+    background-color: rgb(206, 159, 71);
+}
+.back:active{
+    background-color: white;
+}
+
+.img{
+    outline: none;
+    border: none;
+}
+
+.dark-icons{
+    margin-left: 1170px;
+    width:60px;
+    height:30px;
+    outline:none;
+    border: none;
+}
+
+
+.td{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    transition: transform 0.3s ease
+}
+
+.td:hover{
+    transform: scale(1.1);
+
+}
+
+.tdimg {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s ease; 
+}
+
+
+.tdimg:hover {
+    transform: scale(1.1);
+}
+
+
+
